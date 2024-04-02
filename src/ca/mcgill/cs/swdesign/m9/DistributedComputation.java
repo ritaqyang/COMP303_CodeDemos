@@ -35,10 +35,7 @@ public class DistributedComputation
 							adder3.getResult() + adder4.getResult());
 
 				}
-				catch (InterruptedException e)
-				{
-					return;
-				}
+				catch (InterruptedException e) {}
 
 			}}).start();
 		

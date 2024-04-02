@@ -23,7 +23,7 @@ public class InterruptedThread
 			
 		});
 		t1.start();
-		main.sleep(5);
+		Thread.sleep(5);
 		t1.interrupt();
 		System.out.printf("Thread %s Finished. \n", Thread.currentThread().getName());
 	}
